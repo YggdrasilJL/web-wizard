@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Ms+Madi&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  color: #FFF;
+  background-image: url(./assets/background-portfolio.png);
+}
