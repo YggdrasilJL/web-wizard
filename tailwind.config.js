@@ -9,6 +9,7 @@ export default {
     colors: {
       forestGreen: '#2e5e4e',
       lightSage: '#5f8569',
+      white: '#fff',
     },
   },
   plugins: [],

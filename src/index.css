@@ -5,6 +5,5 @@
 @tailwind utilities;
 
 body {
-  color: #FFF;
   background-image: url(./assets/background-portfolio.png);
 }
