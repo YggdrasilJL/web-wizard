@@ -48,7 +48,7 @@ const Nav = () => {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="text-white cursor-pointer pr-3 transition-transform duration-500"
+        className="text-white cursor-pointer pr-3 sm:hidden"
       >
         {!nav ? <FaBars size={35} /> : <FaTimes size={35} />}
       </div>
