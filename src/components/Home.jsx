@@ -1,11 +1,11 @@
 import React from 'react'
 
 const Home = () => {
-  return (
-    <div className='flex justify-evenly'>
+  // return (
+  //   <div className='flex justify-evenly'>
 
-    </div>
-  )
+  //   </div>
+  // )
 }
 
 export default Home
