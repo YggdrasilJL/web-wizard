@@ -53,7 +53,7 @@ const Nav = () => {
         {!nav ? <FaBars size={35} /> : <FaTimes size={35} />}
       </div>
       {nav && (
-        <ul className="sm:hidden gap-y-12 flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-opacityBlack to-opacityLightBlack">
+        <ul className=" text-6xl sm:hidden gap-y-12 flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-opacityBlack to-opacityLightBlack">
           {navs.map(({ id, icon, text }) => (
             <li
               className="text-white text-4xl flex items-center justify-center cursor-pointer hover:scale-125 duration-500"

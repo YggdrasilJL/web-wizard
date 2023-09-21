@@ -11,3 +11,29 @@
 body {
   background-image: url(./assets/background-portfolio.png);
 }
+
+.name {
+  animation: glowing 2s ease-in infinite;
+}
+
+@keyframes glowing {
+  0% {
+    filter: drop-shadow(0px 5px 10px #2e5e4e);
+  }
+
+  25% {
+    filter: drop-shadow(0px 5px 10px #2e5e4e86);
+  }
+
+  50% {
+    filter: drop-shadow(0px 5px 10px #2e5e4e59);
+  }
+
+  75% {
+    filter: drop-shadow(0px 5px 10px #2e5e4e86);
+  }
+
+  100% {
+    filter: drop-shadow(0px 5px 10px #2e5e4e);
+  }
+}
