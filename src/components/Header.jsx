@@ -9,7 +9,7 @@ const Header = () => {
           <img
             src="src/assets/3.svg"
             alt="The tree of Yggdrasil from Norse Mythology"
-            width={60}
+            width={80}
           />
         </a>
         <h1 className="font-signature text-5xl text-white">Jacob</h1>

@@ -9,6 +9,9 @@ export default {
     colors: {
       forestGreen: '#2e5e4e',
       lightSage: '#5f8569',
+      lightGreen: '#9adaab',
+      reactColor: '#149eca',
+      tailwColor: '#07b6d5',
       white: '#fff',
       opacityBlack: '#00000080',
       opacityLightBlack: '#24242480',

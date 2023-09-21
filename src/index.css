@@ -4,10 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url(./assets/background-portfolio.png);
+* {
+  font-family: 'Mooli';
 }
 
-.g {
-  color: #242424;
+body {
+  background-image: url(./assets/background-portfolio.png);
 }
