@@ -17,10 +17,10 @@ const Home = () => {
           </div>
           <p className="text-white text-2xl max-w-4xl text-center mt-16">
             <span className="text-4xl text-lightAqua">Frontend Engineer</span>{' '}
-            with experience in backend development as well. I have a strong
-            passion for designing and creating things with code. While I may be
-            new to the field, I am eager to learn and grow in this exciting
-            industry. My favourite technologies to work with would be{' '}
+            with experience in backend development as well. I am always eager to
+            learn and grow in this exciting industry because I have a strong
+            passion for designing and creating things with code. My favourite
+            technologies to work with would be{' '}
             <span className="text-3xl animate-pulse duration-1000 text-aqua hover:animate-none">
               React
             </span>{' '}
@@ -29,7 +29,7 @@ const Home = () => {
               Tailwind
             </span>
             , I take pride in my unique ability to balance both analytical and
-            creative thinking making this the perfect career for me!
+            creative thinking making software development the perfect career for me!
           </p>
         </div>
         <img

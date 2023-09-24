@@ -12,6 +12,15 @@ body {
   background-image: url(./assets/background-portfolio.png);
 }
 
+#root,
+#app {
+  min-height: 100vh;
+}
+
+.fade-in {
+  transition: opacity 5s ease-in-out, filter 3s ease-in-out;
+}
+
 .name {
   animation: glowing 2s ease-in infinite;
 }
@@ -37,7 +46,6 @@ body {
     filter: drop-shadow(0px 5px 10px #73c6b9);
   }
 }
-
 
 @media (max-width: 1200px) {
   .intro {

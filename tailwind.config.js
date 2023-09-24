@@ -19,6 +19,8 @@ export default {
       lavender2: '#b492d0',
       darkPurple: '#4b3ea1',
       magenta: '#c374c5',
+      opacityMagenta: '#c474c515',
+      transparent: '#00000000',
     },
   },
   plugins: [],
