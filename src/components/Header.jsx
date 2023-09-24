@@ -7,12 +7,12 @@ const Header = () => {
       <div className="flex justify-center items-center gap-3">
         <a href="https://historycooperative.org/yggdrasil/" target="_blank">
           <img
-            src="src/assets/3.svg"
+            src="src/assets/yggdrasilTree.png"
             alt="The tree of Yggdrasil from Norse Mythology"
             width={80}
           />
         </a>
-        <h1 className="font-signature text-5xl text-white">Jacob</h1>
+        <h1 className="font-signature text-6xl text-white">Jacob</h1>
       </div>
       <Nav />
     </div>

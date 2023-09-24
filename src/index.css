@@ -18,22 +18,35 @@ body {
 
 @keyframes glowing {
   0% {
-    filter: drop-shadow(0px 5px 10px #2e5e4e);
+    filter: drop-shadow(0px 5px 10px #73c6b9);
   }
 
   25% {
-    filter: drop-shadow(0px 5px 10px #2e5e4e86);
+    filter: drop-shadow(0px 5px 10px #73c6b986);
   }
 
   50% {
-    filter: drop-shadow(0px 5px 10px #2e5e4e59);
+    filter: drop-shadow(0px 5px 10px #73c6b959);
   }
 
   75% {
-    filter: drop-shadow(0px 5px 10px #2e5e4e86);
+    filter: drop-shadow(0px 5px 10px #73c6b986);
   }
 
   100% {
-    filter: drop-shadow(0px 5px 10px #2e5e4e);
+    filter: drop-shadow(0px 5px 10px #73c6b9);
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .intro {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro img {
+    margin-top: 5vh;
   }
 }
