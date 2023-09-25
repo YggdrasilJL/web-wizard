@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="flex absolute z-20 pointer-events-none">
-        <iframe src="https://giphy.com/embed/xYaF6AN3tSdb7Ml9UI"></iframe>
+      <div className="star flex absolute z-20 w-44 left-16">
+        <img src="src\assets\flying-star.gif" alt="shooting star" />
       </div>
       <div className="mt-[25vh] flex flex-col sm:flex-row md:justify-around md:flex-row intro">
         <div className="flex flex-col items-center mt-10 p-3">
@@ -29,7 +29,8 @@ const Home = () => {
               Tailwind
             </span>
             , I take pride in my unique ability to balance both analytical and
-            creative thinking making software development the perfect career for me!
+            creative thinking making software development the perfect career for
+            me!
           </p>
         </div>
         <img
