@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
           width={400}
         />
       </div>
+      <Footer />
     </div>
   );
 };
