@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+// components
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
@@ -6,18 +7,29 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Header from './components/Header';
-import { A, useRoutes } from '@patched/hookrouter';
+
 import './index.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 function App() {
-  const routes = {
-    '/': () => <Home />,
-    '/about': () => <About />,
-    '/projects': () => <Project />,
-    '/contact': () => <Contact />,
-    '*': () => <NotFound />,
-  };
-  const AppRoutes = useRoutes(routes);
+  const routes = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home />,
+    },
+    {
+      path: '/about',
+      element: <About />,
+    },
+    {
+      path: '/projects',
+      element: <Project />,
+    },
+    {
+      path: '/contact',
+      element: <Contact />,
+    },
+  ]);
 
   const [visible, setVisible] = useState(false);
   useEffect(() => {
@@ -33,9 +45,7 @@ function App() {
           : 'opacity-0, filter brightness-0'
       }`}
     >
-      <Header />
-      
-      {AppRoutes}
+      <RouterProvider router={routes} />
     </div>
   );
 }
