@@ -29,6 +29,10 @@ function App() {
       path: '/contact',
       element: <Contact />,
     },
+    {
+      path: '*',
+      element: <Home />,
+    },
   ]);
 
   const [visible, setVisible] = useState(false);
@@ -45,7 +49,9 @@ function App() {
           : 'opacity-0, filter brightness-0'
       }`}
     >
+      <Header />
       <RouterProvider router={routes} />
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center fixed  w-full p-3">
+    <div className="flex justify-between items-center w-full p-3">
       <div className="flex justify-center items-center gap-3">
         <a href="https://historycooperative.org/yggdrasil/" target="_blank">
           <img

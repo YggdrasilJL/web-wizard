@@ -47,7 +47,6 @@ body {
   }
 }
 
-
 @media (max-width: 1200px) {
   .intro {
     display: flex;

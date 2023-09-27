@@ -1,11 +1,6 @@
-import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
 const Home = () => {
   return (
     <div className="flex flex-col">
-      <Header />
       <div className="star flex absolute z-20 w-44 left-16">
         <img src="src\assets\flying-star.gif" alt="shooting star" />
       </div>
@@ -41,7 +36,6 @@ const Home = () => {
           width={400}
         />
       </div>
-      <Footer />
     </div>
   );
 };
