@@ -3,8 +3,9 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
+    // removing bottom-0 stops it from clipping over other elements
     <footer className="flex text-white">
-      <div className=" justify-between items-center bg-gradient-to-b from-transparent to-opacityMagenta p-4 flex gap-x-5 w-full sm:absolute bottom-0">
+      <div className=" justify-between items-center bg-gradient-to-b from-transparent to-opacityPurple p-4 flex gap-x-5 w-full sm:absolute bottom-0">
         <p className="ml-4">&copy; Jacob Lowther's Portfolio</p>
         <div className="flex gap-x-6 mr-4">
           <a
