@@ -4,7 +4,7 @@ const Home = () => {
       <div className="star flex absolute z-20 w-44 left-16">
         <img src="src\assets\flying-star.gif" alt="shooting star" />
       </div>
-      <div className="mt-[12vh] flex flex-col sm:flex-row md:justify-around md:flex-row intro">
+      <div className="mt-[12vh] flex flex-col sm:flex-row md:justify-around md:flex-row intro min-h-screen">
         <div className="flex flex-col items-center mt-10 p-3">
           <div className=" text-7xl -z-10">
             <h1 className="z-10 font-bold text-aqua name text-center">
