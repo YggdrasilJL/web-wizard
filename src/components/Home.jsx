@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div className="flex flex-col">
-      <div className="star flex absolute z-20 w-44 left-16">
+      <div className="star flex absolute z-20 w-44 left-16 top-0">
         <img src="src\assets\flying-star.gif" alt="shooting star" />
       </div>
       <div className="mt-[12vh] flex flex-col sm:flex-row md:justify-around md:flex-row intro min-h-screen">
@@ -29,12 +29,14 @@ const Home = () => {
             me!
           </p>
         </div>
-        <img
-          className="object-cover"
-          src="src\assets\manCodingOnPlanet.png"
-          alt="Picture of man coding on top of a planet"
-          width={400}
-        />
+        <div>
+          <img
+            className="object-contain"
+            src="src\assets\manCodingOnPlanet.png"
+            alt="Picture of man coding on top of a planet"
+            width={400}
+          />
+        </div>
       </div>
     </div>
   );
