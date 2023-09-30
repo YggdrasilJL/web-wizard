@@ -39,32 +39,53 @@ const Project = () => {
       alt: 'Tailwind CSS',
     },
   ];
+
+  const projectList = [
+    {
+      id: 1,
+      name: 'Mapbrew Haven',
+      desc: 'Mapbrew Haven is your go-to tool for tabletop RPG maps. Craft and download your own maps to add a personalized touch to your sessions!',
+      img: 'src/assets/mapbrew.png',
+      link: 'https://mapbrew-websitee-20a575919a4b.herokuapp.com/login',
+    },
+  ];
+
   return (
-    <div>
-      <div className='flex gap-5'>
-        {techList.map(({ id, name, src, alt }) => (
-          <img key={id} src={src} alt={alt} width={100} />
-        ))}
-      </div>
-      <a
-        href="https://mapbrew-websitee-20a575919a4b.herokuapp.com/login"
-        target="_blank"
-        className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-      >
-        <img
-          className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-          src="src\assets\mapbrew.png"
-          alt="Mapbrew Haven project"
-        />
-        <div className="flex flex-col justify-between p-4 leading-normal">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Mapbrew Haven
-          </h5>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            project description
-          </p>
+    <div className="text-white">
+      <div className="flex flex-col items-center gap-y-10 mt-10 min-h-screen">
+        <h1 className="text-5xl">Projects:</h1>
+        <div>
+          {projectList.map(({ id, name, desc, img, link }) => (
+            <div key={id}>
+              <a href={link} target="_blank">
+                <div className="flex w-fit p-4 rounded-xl border hover:scale-105 hover:shadow-xl hover:shadow-opacityMagenta hover:bg-opacityMagenta  duration-700">
+                  <img src={img} width={200} className="rounded-lg" />
+                  <div className="p-3">
+                    <h3 className="text-2xl mb-2">{name}</h3>
+                    <p className="max-w-md text-gray-400">{desc}</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
-      </a>
+        <div className="mt-20">
+          <h2 className="text-4xl text-center mb-8">
+            Technologies I've worked with:
+          </h2>
+          <div className="flex gap-5">
+            {techList.map(({ id, name, src, alt }) => (
+              <img
+                className="object-contain"
+                key={id}
+                src={src}
+                alt={alt}
+                width={100}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
