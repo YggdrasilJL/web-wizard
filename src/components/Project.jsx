@@ -91,7 +91,7 @@ const Project = () => {
               </a>
               {repo ? (
                 <a href={repo} className="text-magenta border border-magenta w-fit h-fit p-2 rounded-lg">
-                  <p>Repository</p>
+                  <p>Code</p>
                 </a>
               ) : null}
             </div>

@@ -26,10 +26,16 @@ const Contact = () => {
   };
 
   return (
-    <div className="m-10 sm:m-0 sm:mt-20 p-0 text-white min-h-screen">
+    <div className="contact m-10 sm:m-0 sm:mt-20 p-0 text-white min-h-screen">
       <div className="mx-auto max-w-lg px-6 py-12 border rounded-3xl">
         <h1 className="text-2xl font-bold mb-8">Let's connect :)</h1>
-        <form id="form" noValidate onSubmit={handleSubmit}>
+        <form
+          action="https://getform.io/f/8dff03e9-7a0c-4722-9b0d-73e3a013ca93"
+          method="POST"
+          id="form"
+          noValidate
+          // onSubmit={handleSubmit}
+        >
           <div className="relative z-0 w-full mb-5">
             <input
               type="text"
@@ -97,10 +103,9 @@ const Contact = () => {
           </div>
 
           <button
-            id="button"
-            type="button"
             className="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg
              shadow outline-none bg-darkPurple hover:bg-magenta hover:shadow-lg focus:outline-none"
+            type="submit"
           >
             Submit
           </button>
