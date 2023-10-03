@@ -74,7 +74,7 @@ const Project = () => {
           {projectList.map(({ id, name, desc, img, link, repo }) => (
             <div
               key={id}
-              className=" w-auto flex p-4 rounded-xl border hover:scale-105 hover:shadow-xl hover:shadow-opacityMagenta hover:bg-opacityMagenta  duration-700"
+              className="mx-10 sm:w-auto flex p-4 rounded-xl border hover:scale-105 hover:shadow-xl hover:shadow-opacityMagenta hover:bg-opacityMagenta  duration-700"
             >
               <a href={link} target="_blank">
                 <div className="flex">
@@ -90,7 +90,10 @@ const Project = () => {
                 </div>
               </a>
               {repo ? (
-                <a href={repo} className="text-magenta border border-magenta w-fit h-fit p-2 rounded-lg">
+                <a
+                  href={repo}
+                  className="text-magenta border border-magenta w-fit h-fit p-2 rounded-lg"
+                >
                   <p>Code</p>
                 </a>
               ) : null}
@@ -101,16 +104,30 @@ const Project = () => {
           <h2 className="text-4xl text-center mb-8">
             Technologies I've worked with:
           </h2>
-          <div className="flex gap-5 mb-20">
-            {techList.map(({ id, name, src, alt }) => (
-              <img
-                className="object-contain"
-                key={id}
-                src={src}
-                alt={alt}
-                width={100}
-              />
-            ))}
+          <div className="flex gap-5 flex-col sm:flex-row items-center">
+            <div className="flex gap-5 sm:mb-20 items-center">
+              {/* unused name variable, might add in future */}
+              {techList.slice(0, 3).map(({ id, name, src, alt }) => (
+                <img
+                  className="object-contain"
+                  key={id}
+                  src={src}
+                  alt={alt}
+                  width={80}
+                />
+              ))}
+            </div>
+            <div className="flex gap-5 mb-20 items-center">
+              {techList.slice(3, 6).map(({ id, name, src, alt }) => (
+                <img
+                  className="object-contain"
+                  key={id}
+                  src={src}
+                  alt={alt}
+                  width={80}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>

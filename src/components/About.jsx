@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <div className="flex flex-col gap-y-12 items-center">
+      <div className="flex flex-col gap-y-12 items-center overflow-hidden">
         <div className="gap-10 flex flex-col h-screen items-center">
           <h1 className="mt-20 text-white text-center text-7xl">
             Hi, I'm Jacob!
@@ -15,7 +15,7 @@ const About = () => {
             className=" drop-shadow-2xl"
           />
         </div>
-        <h2 className="text-white text-center text-4xl max-w-6xl h-screen">
+        <h2 className="text-white text-center max-w-lg text-2xl sm:text-4xl sm:max-w-6xl mb-96">
           Growing up, I've always had this craving for creating and crafting
           things that bring my weirdest/wildest ideas to life. Diving into the
           world of coding this past year has been invigorating and I have

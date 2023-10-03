@@ -69,7 +69,7 @@ const Nav = () => {
             <FaTimes
               size={35}
               onClick={() => setNav(!nav)}
-              className="text-white absolute top-7 right-6 cursor-pointer"
+              className="text-white absolute top-9 right-6 cursor-pointer"
             />
           </ul>
         </div>
