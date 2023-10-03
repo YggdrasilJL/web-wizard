@@ -28,7 +28,11 @@ const Contact = () => {
   return (
     <div className="contact m-10 sm:m-0 sm:mt-20 p-0 text-white min-h-screen">
       <div className="mx-auto max-w-lg px-6 py-12 border rounded-3xl">
-        <h1 className="text-2xl font-bold mb-8">Let's connect :)</h1>
+        <h1 className="text-2xl font-bold mb-8 hover:scale-105 hover:text-teal-400 w-fit cursor-default duration-700 hover:shadow-2xl">
+          <span className="hover:scale-105 hover:shadow-purple-400 duration-1000">
+            Let's connect! :)
+          </span>
+        </h1>
         <form
           action="https://getform.io/f/8dff03e9-7a0c-4722-9b0d-73e3a013ca93"
           method="POST"
@@ -103,8 +107,8 @@ const Contact = () => {
           </div>
 
           <button
-            className="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-150 ease-linear rounded-lg
-             shadow outline-none bg-darkPurple hover:bg-magenta hover:shadow-lg focus:outline-none"
+            className="w-full px-6 py-3 mt-3 text-lg text-white transition-all duration-300 ease-linear rounded-lg
+             shadow outline-none bg-darkPurple hover:outline-1 hover:outline-lightAqua hover:bg-magenta hover:scale-105 hover:shadow-lg focus:outline-none"
             type="submit"
           >
             Submit
