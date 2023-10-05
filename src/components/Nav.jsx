@@ -41,7 +41,7 @@ const Nav = () => {
   return (
     // loop over an array of objects instead of copy and pasting a ton
     <div className="z-50">
-      <ul className="gap-x-5 text-2xl text-white hidden sm:flex mr-4">
+      <ul className="gap-x-5 text-lg md:text-xl lg:text-2xl text-white hidden sm:flex mr-4">
         {navs.map(({ id, icon, text, link }) => (
           <a href={link} key={id}>
             <li className="flex items-center justify-center cursor-pointer hover:scale-125 hover:text-magenta duration-500">

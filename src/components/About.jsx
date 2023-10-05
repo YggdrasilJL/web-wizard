@@ -5,17 +5,16 @@ const About = () => {
     <div>
       <div className="flex flex-col gap-y-12 items-center overflow-hidden">
         <div className="gap-10 flex flex-col h-screen items-center">
-          <h1 className="mt-20 text-white text-center text-7xl">
+          <h1 className="mt-20 text-white text-center text-5xl sm:text-7xl">
             Hi, I'm Jacob!
           </h1>
           <img
             src="assets/me.png"
             alt="Photo of Jacob"
-            width={350}
-            className=" drop-shadow-2xl"
+            className=" drop-shadow-2xl w-60"
           />
         </div>
-        <h2 className="text-white text-center max-w-lg text-2xl sm:text-4xl sm:max-w-6xl mb-96">
+        <h2 className="text-white text-center max-w-md text-xl sm:text-4xl sm:max-w-6xl mb-96">
           Growing up, I've always had this craving for creating and crafting
           things that bring my weirdest/wildest ideas to life. Diving into the
           world of coding this past year has been invigorating and I have

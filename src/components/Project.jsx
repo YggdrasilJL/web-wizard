@@ -77,7 +77,7 @@ const Project = () => {
               className="mx-10 sm:w-auto flex p-4 rounded-xl border hover:scale-105 hover:shadow-xl hover:shadow-opacityMagenta hover:bg-opacityMagenta  duration-700"
             >
               <a href={link} target="_blank">
-                <div className="flex">
+                <div className="flex flex-col sm:flex-row">
                   <img
                     src={img}
                     width={200}
