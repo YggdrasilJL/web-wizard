@@ -11,8 +11,6 @@ const port = process.env.PORT || 5000;
 // Serve static assets (your built React app)
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// Define your API routes or other server logic here
-
 // Send the React app for all other routes
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));

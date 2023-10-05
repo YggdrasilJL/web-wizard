@@ -9,7 +9,7 @@ const About = () => {
             Hi, I'm Jacob!
           </h1>
           <img
-            src="src\assets\me.png"
+            src="assets/me.png"
             alt="Photo of Jacob"
             width={350}
             className=" drop-shadow-2xl"
