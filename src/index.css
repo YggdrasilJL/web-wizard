@@ -48,7 +48,7 @@ textarea:focus ~ label {
 }
 
 body {
-  background-image: url(./assets/background-portfolio.png);
+  background-image: url(/assets/background-portfolio.png);
 }
 
 #root,
