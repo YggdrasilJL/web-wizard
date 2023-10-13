@@ -1,6 +1,6 @@
 # Jacob Lowther - Portfolio
 
-![Portfolio Screenshot](assets/portfolio-screenshot.png)
+![Portfolio Screenshot](public/assets/portfolio-ss.png)
 
 ## Description
 

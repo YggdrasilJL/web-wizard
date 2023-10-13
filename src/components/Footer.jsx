@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
-  const resumePDF = 'src/assets/jacob-resume.pdf';
+  const resumePDF = 'assets/jacob-resume.pdf';
   return (
     // removing bottom-0 stops it from clipping over other elements
     <div className="text-sm sm:text-md lg:text-lg flex text-white h-20 mt-20">

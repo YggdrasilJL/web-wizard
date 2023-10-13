@@ -59,10 +59,33 @@ const Project = () => {
     },
     {
       id: 3,
+      name: 'God Of War Quiz',
+      desc: 'A fun quiz to test your knowledge of the God Of War 2018 game.',
+      img: 'assets/portfolio/god-of-war.png',
+      link: 'https://yggdrasiljl.github.io/04-challenge-quiz/',
+      repo: 'https://github.com/YggdrasilJL/04-challenge-quiz',
+    },
+    {
+      id: 4,
+      name: 'Weather Dashboard',
+      desc: 'A weather dashboard that uses the OpenWeatherMap API to display current weather data and forecast for a given location.',
+      img: 'assets/portfolio/weather-app.png',
+      link: 'https://yggdrasiljl.github.io/weather-app/',
+      repo: 'https://github.com/YggdrasilJL/weather-app',
+    },
+    {
+      id: 5,
       name: 'SVG Creator',
       desc: 'A simple and straightforward tool that empowers you to effortlessly create custom SVG images from the command line using inquirer.',
       img: 'assets/portfolio/svg-creator.png',
       link: 'https://github.com/YggdrasilJL/svgCreator-NODEJS',
+    },
+    {
+      id: 6,
+      name: 'Social Network API',
+      desc: 'A social network API that has been built to handle large amounts of unstructured data efficiently using MongoDB, Mongoose and Express.js.',
+      img: 'assets/portfolio/social-api.png',
+      link: 'https://github.com/YggdrasilJL/nauseous-NoSQL',
     },
   ];
 
@@ -92,6 +115,7 @@ const Project = () => {
               {repo ? (
                 <a
                   href={repo}
+                  target="_blank"
                   className="text-magenta border border-magenta w-fit h-fit p-2 rounded-lg"
                 >
                   <p>Code</p>
