@@ -1,6 +1,7 @@
 # Jacob Lowther - Portfolio
 
 ![Portfolio Screenshot](public/assets/portfolio-ss.png)
+[Click me](www.jacoblowther.com) to view live demo!
 
 ## Description
 
