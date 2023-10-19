@@ -67,11 +67,11 @@ const Project = () => {
     },
     {
       id: 4,
-      name: 'Weather Dashboard',
-      desc: 'A weather dashboard that uses the OpenWeatherMap API to display current weather data and forecast for a given location.',
-      img: 'assets/portfolio/weather-app.png',
-      link: 'https://yggdrasiljl.github.io/weather-app/',
-      repo: 'https://github.com/YggdrasilJL/weather-app',
+      name: 'CyberScript',
+      desc: 'Turns learning to code into an exciting adventure! Cyberscript is not your typical language learning platform, its a fun and interactive way to learn coding with a cyberpunk twist!',
+      img: 'assets/portfolio/cyberscript.png',
+      link: 'https://cyberscript-66546257c421.herokuapp.com/',
+      repo: 'https://github.com/YggdrasilJL/code-name-project-3',
     },
     {
       id: 5,
