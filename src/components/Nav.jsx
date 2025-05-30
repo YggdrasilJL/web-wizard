@@ -22,19 +22,19 @@ const Nav = () => {
       id: 2,
       icon: <FaUserAstronaut className="mx-1" />,
       text: 'About',
-      link: '/about',
+      link: '/#/about',
     },
     {
       id: 3,
       icon: <FaPalette className="mx-1" />,
       text: 'Projects',
-      link: '/projects',
+      link: '/#/projects',
     },
     {
       id: 4,
       icon: <FaMailBulk className="mx-1" />,
       text: 'Contact',
-      link: '/contact',
+      link: '/#/contact',
     },
   ];
 

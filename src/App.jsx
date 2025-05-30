@@ -9,10 +9,10 @@ import NotFound from './components/NotFound';
 import Header from './components/Header';
 
 import './index.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 
 function App() {
-  const routes = createBrowserRouter([
+  const routes = createHashRouter([
     {
       path: '/',
       element: <Home />,
